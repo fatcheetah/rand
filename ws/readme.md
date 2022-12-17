@@ -15,5 +15,5 @@ ___
 pip install beautifulsoup4
 pip install selenium
 
-python w.py
+python you.py
 ```
