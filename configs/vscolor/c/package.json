@@ -1,0 +1,32 @@
+{
+  "name": "c",
+  "displayName": "c",
+  "description": "c",
+  "publisher": "thefatCheetah",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.73.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fatcheetah/"
+},
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#cd7a8a",
+    "theme": "dark"
+},
+  "contributes": {
+    "themes": [
+      {
+        "label": "c",
+        "uiTheme": "vs-dark",
+        "path": "c.json"
+      }
+    ]
+  }
+}
