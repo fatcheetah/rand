@@ -1,0 +1,1 @@
+contessa theme for vscode, compile with vsce npm package
