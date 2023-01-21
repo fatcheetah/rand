@@ -7,3 +7,4 @@ set number
 set hlsearch
 set ruler
 set backspace=indent,eol,start
+set background=dark
