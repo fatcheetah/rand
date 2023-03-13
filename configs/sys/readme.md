@@ -1,5 +1,7 @@
-## easy dev environment
-+ pacman list of packages installed
-+ tmux status styling
-+ minttyrc nice windows settings
-+ bashrc alias for .. and cls
+# nushell dl configs
+```shell
+> http get https://raw.githubusercontent.com/fatcheetah/rand/master/configs/sys/.nuconf | save $nu.config-path --append
+> http get https://raw.githubusercontent.com/fatcheetah/rand/master/configs/sys/starship.toml | save ~/.config/starship.toml
+> http get https://raw.githubusercontent.com/fatcheetah/rand/master/configs/sys/.vimrc | save ~/.vimrc
+> http get https://raw.githubusercontent.com/fatcheetah/rand/master/configs/sys/.tmux.conf | save ~/.tmux.conf
+```
