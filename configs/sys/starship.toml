@@ -1,0 +1,31 @@
+format = """$username${custom.nu}$directory $git_branch$git_commit$git_metrics
+$character
+"""
+
+[username]
+format = "$user@"
+show_always = true
+
+[custom.nu]
+command = "$env.COMPUTERNAME"
+format = "$output:"
+when = '[ "$STARSHIP_SHELL" == "" ]' # not set in Nushell
+
+[character]
+success_symbol = "[\\$](bold green)"
+error_symbol = "[x](bold red)"
+vimcmd_symbol = "[<](bold green)"
+
+[git_metrics]
+format = "\\[([+$added]($added_style))([-$deleted]($deleted_style))\\]"
+disabled = false
+
+[git_commit]
+tag_symbol = " tag "
+
+[git_branch]
+format = "\\([$branch]($style)\\)"
+
+[directory]
+format = '[$path]($style)[$read_only]($read_only_style)'
+read_only = " ro"

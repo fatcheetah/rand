@@ -1,6 +1,6 @@
 syntax on
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set ai
 set number
@@ -18,4 +18,4 @@ set wildmode=longest:full,full     " wildlist
 :set belloff=all                   " disable flashing, alarms
 
 let g:netrw_banner=0               " disable annoying banner
-let g:netrw_liststyle=3            " tree viewsyntax on
+let g:netrw_liststyle=3            " tree view

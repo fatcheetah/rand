@@ -1,8 +1,0 @@
-base 2022.06-1
-filesystem 2022.01-7
-git 2.39.0-1
-msys2-runtime 3.3.6-6
-openssh 9.1p1-1
-python 3.10.9-1
-tmux 3.3.a-1
-vim 8.2.5117-2
