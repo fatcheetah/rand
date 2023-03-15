@@ -1,0 +1,75 @@
+@-moz-document url("https://news.ycombinator.com/"), url-prefix("https://news.ycombinator.com/news"), url-prefix("https://news.ycombinator.com/front"), url-prefix("https://news.ycombinator.com/ask"), url-prefix("https://news.ycombinator.com/show"), url-prefix("https://news.ycombinator.com/newest"), url-prefix("https://news.ycombinator.com/newcomments") {
+    .spacer {
+        display: none;
+    }
+    .morespace {
+        display: none;
+    }
+    [colspan="2"] {
+        display: none;
+    }
+    .pagetop:before {
+        content: "\00a0 |"
+    }
+    table:not(#hnmain) > tbody {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+    .athing {
+        flex-grow: 1;
+        width: 33%;
+        background-color: #fffff9;
+        padding: .5em;
+        margin: .25em 0 .25em .25em
+    }
+    @media only screen and (min-width: 300px) and (max-width: 750px) {
+        .pagetop:before {
+            content: ""
+        }
+        .athing {
+            width: 50%;
+        }
+    }
+    .athing + tr {
+        width: 5em;
+        background-color: #fffff9;
+        padding: .5em;
+        border-radius: .2em;
+        margin: .25em .25em .25em 0
+    }
+    .title:hover {
+        text-decoration: underline;
+    }
+    .titleline {
+        display: block;
+    }
+    .sitebit {
+        display: block;
+        word-break: break-word;
+    }
+    .hnuser {
+        font-weight: bold;
+    }
+    .age {
+        display: block;
+    }
+    .default {
+        padding: .5em;
+    }
+    a:visited {
+        color: #ffc9a6;
+    }
+    .title > .morelink {
+        background: #ff7800;
+        color: #fff;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        padding: 2em;
+    }
+    .title > .morelink:visited {
+        color: #fff;
+    }
+}
