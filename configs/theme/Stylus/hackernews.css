@@ -8,8 +8,8 @@
     [colspan="2"] {
         display: none;
     }
-    .pagetop:before {
-        content: "\00a0 |"
+    .pagetop > a[href^="login"]:before {
+        content: "\00a0|\00a0"
     }
     table:not(#hnmain) > tbody {
         display: flex;
