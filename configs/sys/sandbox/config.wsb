@@ -1,7 +1,7 @@
 <Configuration>
 <VGpu>Disable</VGpu>
 <LogonCommand>
-    <Command>powershell -executionpolicy unrestricted -command "start powershell {-noexit irm get.scoop.sh | iex; scoop install git; scoop install nu; scoop install vim; scoop install starship; scoop bucket add nonportable; scoop install workman-uk-np; scoop bucket add nerd-fonts; scoop install hack-nf-mono; scoop bucket add extras; scoop install vcredist2022; scoop uninstall vcredist2022; scoop install windows-terminal; scoop install firefox; scoop install vscode; scoop install lazygit; }"</Command>
+    <Command>powershell -executionpolicy unrestricted -command "start powershell {-noexit irm get.scoop.sh | iex; scoop install git; scoop install nu; scoop install vim; scoop install starship; scoop bucket add nonportable; scoop install workman-uk-np; scoop bucket add nerd-fonts; scoop install hack-nf-mono; scoop bucket add extras; scoop install vcredist2022; scoop uninstall vcredist2022; scoop install windows-terminal; scoop install ungoogled-chromium; scoop install vscode; scoop install lazygit; }"</Command>
 </LogonCommand>
 </Configuration>
 
