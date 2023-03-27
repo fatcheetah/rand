@@ -1,5 +1,5 @@
 format = """$username${custom.nu}$directory $git_branch$git_commit$git_metrics
-$character
+
 """
 
 [username]
