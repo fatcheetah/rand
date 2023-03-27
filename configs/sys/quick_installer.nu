@@ -1,5 +1,6 @@
 http get https://raw.githubusercontent.com/fatcheetah/rand/master/configs/sys/.nuconf | save $nu.config-path --append
 open $nu.config-path | str replace 'show_banner: true' 'show_banner: false' | save $nu.config-path -f
+open $nu.config-path | str replace 'edit_mode: emacs' 'edit_mode: vi' | save $nu.config-path -f
 http get https://raw.githubusercontent.com/fatcheetah/rand/master/configs/sys/starship.toml | save ~/.config/starship.toml -f
 http get https://raw.githubusercontent.com/fatcheetah/rand/master/configs/sys/.vimrc | save ~/.vimrc -f
 let quakeCommand = (open `~\AppData\Local\Microsoft\Windows Terminal\settings.json` | get actions | append { "command": { "action": "quakeMode" }, "keys": "ctrl+'" }); open `~\AppData\Local\Microsoft\Windows Terminal\settings.json` | merge { "actions": $quakeCommand } | save `~\AppData\Local\Microsoft\Windows Terminal\settings.json` -f
