@@ -1,0 +1,23 @@
+{
+    "background": "#1E1E1E",
+    "black": "#0C0C0C",
+    "blue": "#264F78",
+    "brightBlack": "#808080",
+    "brightBlue": "#CAEC9D",
+    "brightCyan": "#D0ECFB",
+    "brightGreen": "#C4B2F9",
+    "brightPurple": "#CD7A8A",
+    "brightRed": "#F0BDBF",
+    "brightWhite": "#DDD26E",
+    "brightYellow": "#DD996E",
+    "cursorColor": "#D4D4D4",
+    "cyan": "#3A96DD",
+    "foreground": "#D4D4D4",
+    "green": "#6EDD91",
+    "name": "Contessa Code",
+    "purple": "#DDD26E",
+    "red": "#DD6E6E",
+    "selectionBackground": "#264F78",
+    "white": "#7796DF",
+    "yellow": "#D0ECFB"
+}
