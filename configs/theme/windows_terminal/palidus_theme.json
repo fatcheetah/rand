@@ -1,0 +1,23 @@
+{
+  "background": "#252A30",
+  "black": "#676173",
+  "blue": "#9CBADA",
+  "brightBlack": "#726C80",
+  "brightBlue": "#B5D2FF",
+  "brightCyan": "#80D6CA",
+  "brightGreen": "#C1FACF",
+  "brightPurple": "#B3ACD9",
+  "brightRed": "#EDE4DB",
+  "brightWhite": "#E6F2E7",
+  "brightYellow": "#EEF9C3",
+  "cursorColor": "#D4D4D4",
+  "cyan": "#A6D1DD",
+  "foreground": "#D4D4D4",
+  "green": "#73C273",
+  "name": "Pallidus",
+  "purple": "#8E8098",
+  "red": "#D48888",
+  "selectionBackground": "#B3ACD9",
+  "white": "#B2CCC5",
+  "yellow": "#F5FF9A"
+}

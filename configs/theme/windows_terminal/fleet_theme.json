@@ -1,0 +1,23 @@
+{
+  "background": "#181818",
+  "black": "#484848",
+  "blue": "#87C3FF",
+  "brightBlack": "#5D5D5D",
+  "brightBlue": "#ADD1DE",
+  "brightCyan": "#82D2CE",
+  "brightGreen": "#82D2B6",
+  "brightPurple": "#AF9CFF",
+  "brightRed": "#EC7388",
+  "brightWhite": "#F2F2F2",
+  "brightYellow": "#EBC88D",
+  "cursorColor": "#D1D1D1",
+  "cyan": "#779E9E",
+  "foreground": "#D1D1D1",
+  "green": "#4CA988",
+  "name": "Fleet JB",
+  "purple": "#E394DC",
+  "red": "#FF5269",
+  "selectionBackground": "#195EB5",
+  "white": "#CCCCCC",
+  "yellow": "#E09B70"
+}
