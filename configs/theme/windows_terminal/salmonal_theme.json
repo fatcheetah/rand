@@ -1,0 +1,23 @@
+{
+  "background": "#1E1E1E",
+  "black": "#000000",
+  "blue": "#6CA4F8",
+  "brightBlack": "#6D6D6D",
+  "brightBlue": "#6CA4F8",
+  "brightCyan": "#109FC7",
+  "brightGreen": "#5BB866",
+  "brightPurple": "#DB61A2",
+  "brightRed": "#F78166",
+  "brightWhite": "#FFFFFF",
+  "brightYellow": "#E3B341",
+  "cursorColor": "#C9D1D9",
+  "cyan": "#327DAF",
+  "foreground": "#B4B9BE",
+  "green": "#56D364",
+  "name": "Salmonal",
+  "purple": "#DB61A2",
+  "red": "#F78166",
+  "selectionBackground": "#3B5070",
+  "white": "#D7E2E0",
+  "yellow": "#E3B341"
+}
