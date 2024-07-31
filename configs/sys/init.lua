@@ -6,7 +6,7 @@ if not vim.loop.fs_stat(lazypath) then
         "clone",
         "--filter=blob:none",
         "https://github.com/folke/lazy.nvim.git",
-        "--branch=c02268a",
+        "--branch=v11.14.0",
         lazypath,
     })
 end
@@ -90,6 +90,7 @@ vim.cmd [[highlight linenr ctermfg=grey]]
 vim.cmd [[highlight pmenu ctermbg=black ctermfg=240]]
 vim.cmd [[highlight pmenusel ctermbg=black ctermfg=white]]
 vim.cmd [[highlight cursorline ctermbg=234 cterm=NONE]]
+vim.cmd [[highlight MatchParen cterm=bold ctermfg=67 ctermbg=235]]
 
 -- better netrw using tree view and hiding .gitignore files
 vim.g.netrw_banner = 0
