@@ -1,0 +1,26 @@
+let mapleader = "\<Space>"
+
+set scrolloff=5
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+set backspace=indent,eol,start
+
+nmap g] :action GotoImplementation<CR>
+"" nmap gq :action QuickJavaDoc<CR> # LEGACY
+nmap gq :action ShowHoverInfo<CR>
+nmap gl :action LocateInSolutionView<CR>
+nmap cs :action ChangeSignature<CR>
+vmap cc :action SilentCodeCleanup<CR>
+nmap ge :action ReSharperGotoNextErrorInSolution<CR>
+nmap <leader>tt :action RiderUnitTestDebugContextAction<CR>
+nmap <leader>tr :action RiderUnitTestRunContextAction<CR>
+nmap <leader>! :action Stop<CR>
+nmap <leader>b :action ToggleLineBreakpoint<CR>
+
+sethandler <C-2> a:ide
+sethandler <C-R> a:vim
+sethandler <C-S> a:ide
+sethandler <C-W> a:ide
+sethandler <C-P> a:ide
