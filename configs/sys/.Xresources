@@ -1,0 +1,69 @@
+! better defaults
+xterm*termName: xterxm-256color
+xterm*locale: false
+xterm*utf8: true
+xterm*scrollTtyOutput: false
+xterm*scrollKey: true
+xterm*metaSendsEscape: true
+xterm*internalBorder: 4
+xterm*borderWidth: 0
+xterm*selectToClipboard: true
+xterm*geometry: 142x40
+
+! Use a truetype font and size ! [Input Mono Monaco style](https://input.djr.com)
+xterm*faceName: InputMonoCondensed:size=12.5:antialias=true:hinting=true
+
+!better-double_click-highlighting
+xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+xterm*on3Clicks: regex [[:alpha:]]+://([[:alnum:]!#+,./=?@_~-]|(%[[:xdigit:]][[:xdigit:]]))+
+
+! light theme
+!xterm*.foreground:   #262626
+!xterm*.background:   #dee1e2
+!xterm*.cursorColor:  #262626
+!xterm*.color0:       #000000
+!xterm*.color8:       #4d4d4d
+!xterm*.color1:       #750000
+!xterm*.color9:       #a52a2a
+!xterm*.color2:       #00733b
+!xterm*.color10:      #1eb070
+!xterm*.color3:       #7a7a43
+!xterm*.color11:      #808000
+!xterm*.color4:       #000080
+!xterm*.color12:      #1717e6
+!xterm*.color5:       #660e7a
+!xterm*.color13:      #9400d3
+!xterm*.color6:       #0073e6
+!xterm*.color14:      #99ccff
+!xterm*.color7:       #e5e5e5
+!xterm*.color15:      #ffffff
+
+! dark scheme
+xterm*.foreground:   #caffcc
+xterm*.background:   #171b1c
+xterm*.cursorColor:  #f2f2f2
+xterm*.color0:       #484848
+xterm*.color8:       #5d5d5d
+xterm*.color1:       #ff5269
+xterm*.color9:       #ec7388
+xterm*.color2:       #4ca988
+xterm*.color10:      #82d2b6
+xterm*.color3:       #e09b70
+xterm*.color11:      #ebc88d
+xterm*.color4:       #88c3ff
+xterm*.color12:      #add1de
+xterm*.color13:      #af9cff
+xterm*.color5:       #e394dc
+xterm*.color6:       #779e9e
+xterm*.color14:      #82d2ce
+xterm*.color7:       #cccccc
+xterm*.color15:      #f2f2f2
+
+! after making changes run the following
+! xrdb ~/.Xresources
+! xrdb -merge ~/.Xresources
+
+! references for creating config
+! https://aduros.com/blog/xterm-its-better-than-you-thought/
+! https://lukas.zapletalovi.com/posts/2013/hidden-gems-of-xterm/
+
